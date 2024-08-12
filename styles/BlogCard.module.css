@@ -1,0 +1,28 @@
+.blogCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #8888885c;
+  transition: transform 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-5px);
+}
+
+.blogTitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(0, 112, 243, 1);
+}
+
+.blogTime {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.blogBody {
+  font-size: 1rem;
+  color: #555;
+}
